@@ -25,9 +25,15 @@ img {
 .search {
   margin-bottom: 20px;
   border-radius: 5px;
-  padding: 10px;
-  margin-right: 10px;
+  padding: 5px;
+  margin-right: 5px;
   width: 100%;
   cursor: pointer;
   border: 2px solid rgb(193, 191, 191);
+}
+
+.sidebar {
+  padding: 40px;
+  width: 20%;
+  border-right: 2px solid grey;
 }
