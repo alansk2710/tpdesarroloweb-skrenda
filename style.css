@@ -81,3 +81,15 @@ img {
   display: flex;
 
 }
+
+.message-sent {
+  width: 37%;
+  margin-bottom: 0px;
+  margin-left: auto;
+  gap: 15px;
+  padding: 7px;
+  background-color: #dff0f6;
+  border-radius: 10px;
+  white-space: nowrap;
+
+}
