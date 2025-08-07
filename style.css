@@ -73,4 +73,11 @@ img {
   color: green;
 }
 
-.contact-list {}
+.chat-messages {
+  background-color: #f6f8f9;
+  height: 80%;
+  flex-direction: column;
+  margin-bottom: 10px;
+  display: flex;
+
+}
