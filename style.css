@@ -21,3 +21,13 @@ img {
   background-color: white;
   height: 100vh;
 }
+
+.search {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid rgb(193, 191, 191);
+}
