@@ -37,3 +37,8 @@ img {
   width: 20%;
   border-right: 2px solid grey;
 }
+
+.contact {
+  display: flex;
+  gap: 10px;
+}
