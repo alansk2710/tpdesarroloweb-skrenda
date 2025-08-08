@@ -4,6 +4,9 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.p-message {
+  font-weight: bold;
+}
 
 
 img {
@@ -119,6 +122,7 @@ main {
   border-radius: 10px;
   white-space: nowrap;
 
+
 }
 
 .chat-recived {
@@ -193,6 +197,11 @@ button:hover {
   transform: scale(1.5, 1.5);
 }
 
+.contact-chavez {
+  display: flex;
+  gap: 4px;
+
+}
 
 /*----------- pantalla celular------------*/
 @media (max-width: 380px) {
@@ -298,6 +307,7 @@ button:hover {
 
   .contact-chavez {
     display: flex;
+
     gap: 4px;
   }
 
