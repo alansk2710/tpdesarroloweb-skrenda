@@ -4,12 +4,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100%;
-}
+
 
 img {
   width: 50px;
@@ -19,7 +14,8 @@ img {
 .container {
   display: flex;
   background-color: white;
-  height: 100vh;
+  flex: 1;
+
 }
 
 .search {
@@ -39,7 +35,7 @@ img {
 .sidebar {
   padding: 40px;
   width: 20%;
-  border-right: 2px solid grey;
+  border-right: 2px solid rgb(117, 116, 116);
 }
 
 .contact {
@@ -73,6 +69,10 @@ img {
   color: green;
 }
 
+.chat {
+  flex: auto;
+}
+
 .chat-messages {
   background-color: #f6f8f9;
   height: 80%;
@@ -83,13 +83,27 @@ img {
 }
 
 .message-sent {
-  width: 37%;
+  width: auto;
   margin-bottom: 0px;
   margin-left: auto;
+  margin-right: 2px;
   gap: 15px;
   padding: 7px;
   background-color: #dff0f6;
   border-radius: 10px;
   white-space: nowrap;
 
+}
+
+.chat-recived {
+  width: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
+  gap: 15px;
+  padding: 7px;
+  margin-top: 2px;
+  margin-left: 2px;
+  background-color: #b7f6c3;
+  border-radius: 10px;
+  white-space: nowrap;
 }
