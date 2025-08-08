@@ -131,6 +131,8 @@ input {
   font-size: 10px;
   padding-left: 10px;
   border-radius: 10px;
+  border: 2px solid rgb(238, 231, 231);
+
 
 }
 
@@ -159,4 +161,26 @@ button {
   font-size: 15px;
   padding: 1px;
   cursor: pointer;
+}
+
+/*----------- pantalla celular------------*/
+@media (max-width 480px) {
+  .sidebar {
+    display: none;
+  }
+
+  .message-sent {
+    max-width: 85%;
+  }
+
+  .chat-recived {
+    max-width: 85%;
+  }
+
+  .chat-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px
+  }
 }
