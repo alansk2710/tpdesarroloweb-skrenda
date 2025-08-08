@@ -84,6 +84,8 @@ img {
 }
 
 main {
+
+
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -164,23 +166,42 @@ button {
 }
 
 /*----------- pantalla celular------------*/
-@media (max-width 480px) {
+@media (max-width: 380px) {
   .sidebar {
     display: none;
   }
 
-  .message-sent {
-    max-width: 85%;
+  main {
+    display: block;
   }
 
-  .chat-recived {
-    max-width: 85%;
+  section .chat-messages {
+    margin: 0%;
+  }
+
+  .chat-messages,
+  .time {
+    font-size: 10px;
+  }
+
+  .margin-top {
+    max-width: 100%;
+    align-items: center;
+    font-size: 15px;
   }
 
   .chat-header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1px
+    gap: 1px;
+    max-width: 70%;
   }
+
+  .chat-footer {
+    max-width: 100%;
+  }
+
+
+
 }
